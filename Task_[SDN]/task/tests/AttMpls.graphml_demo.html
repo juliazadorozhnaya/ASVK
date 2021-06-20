@@ -1,0 +1,901 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://api-maps.yandex.ru/2.1/?
+apikey=73bc02d2-1232-4c7a-b4a7-5a58f210a2e0&lang=en_US"
+        type="text/javascript"></script>
+<script type="text/javascript">
+    ymaps.ready(function () {
+        var myMap = new ymaps.Map("YMapsID", {
+            center: [55.76, 37.64],
+            zoom: 1
+        });
+        myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [40.71427, -74.00597],
+        { balloonContent: "NY54" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [42.3751, -71.10561],
+        { balloonContent: "CMBR" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [41.85003, -87.65005],
+        { balloonContent: "CHCG" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [41.4995, -81.69541],
+        { balloonContent: "CLEV" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [35.7721, -78.63861],
+        { balloonContent: "RLGH" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [33.749, -84.38798],
+        { balloonContent: "ATLN" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [39.95234, -75.16379],
+        { balloonContent: "PHLA" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [38.89511, -77.03637],
+        { balloonContent: "WASH" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [36.16589, -86.78444],
+        { balloonContent: "NSVL" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [38.62727, -90.19789],
+        { balloonContent: "STLS" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [29.95465, -90.07507],
+        { balloonContent: "NWOR" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [29.76328, -95.36327],
+        { balloonContent: "HSTN" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [29.42412, -98.49363],
+        { balloonContent: "SNAN" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [32.78306, -96.80667],
+        { balloonContent: "DLLS" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [28.53834, -81.37924],
+        { balloonContent: "ORLD" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [39.73915, -104.9847],
+        { balloonContent: "DNVR" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [39.11417, -94.62746],
+        { balloonContent: "KSCY" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [37.77493, -122.41942],
+        { balloonContent: "SNFN" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [38.58157, -121.4944],
+        { balloonContent: "SCRM" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [45.52345, -122.67621],
+        { balloonContent: "PTLD" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [47.60621, -122.33207],
+        { balloonContent: "STTL" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [40.76078, -111.89105],
+        { balloonContent: "SLKC" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [34.05223, -118.24368],
+        { balloonContent: "LA03" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [32.71533, -117.15726],
+        { balloonContent: "SNDG" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Placemark(
+        [33.44838, -112.07404],
+        { balloonContent: "PHNX" },
+        { preset: 'islands#circleIcon', iconColor: '#3b599855' }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [40.71427, -74.00597],
+        [42.3751, -71.10561],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [42.3751, -71.10561],
+        [40.71427, -74.00597],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [40.71427, -74.00597],
+        [41.85003, -87.65005],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.85003, -87.65005],
+        [40.71427, -74.00597],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [40.71427, -74.00597],
+        [39.95234, -75.16379],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.95234, -75.16379],
+        [40.71427, -74.00597],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [40.71427, -74.00597],
+        [38.89511, -77.03637],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.89511, -77.03637],
+        [40.71427, -74.00597],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [42.3751, -71.10561],
+        [39.95234, -75.16379],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.95234, -75.16379],
+        [42.3751, -71.10561],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.85003, -87.65005],
+        [41.4995, -81.69541],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.4995, -81.69541],
+        [41.85003, -87.65005],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.85003, -87.65005],
+        [39.95234, -75.16379],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.95234, -75.16379],
+        [41.85003, -87.65005],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.85003, -87.65005],
+        [38.62727, -90.19789],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.62727, -90.19789],
+        [41.85003, -87.65005],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.85003, -87.65005],
+        [39.73915, -104.9847],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.73915, -104.9847],
+        [41.85003, -87.65005],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.85003, -87.65005],
+        [39.11417, -94.62746],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.11417, -94.62746],
+        [41.85003, -87.65005],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.85003, -87.65005],
+        [37.77493, -122.41942],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [37.77493, -122.41942],
+        [41.85003, -87.65005],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.85003, -87.65005],
+        [47.60621, -122.33207],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [47.60621, -122.33207],
+        [41.85003, -87.65005],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.85003, -87.65005],
+        [40.76078, -111.89105],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [40.76078, -111.89105],
+        [41.85003, -87.65005],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.4995, -81.69541],
+        [36.16589, -86.78444],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [36.16589, -86.78444],
+        [41.4995, -81.69541],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.4995, -81.69541],
+        [38.62727, -90.19789],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.62727, -90.19789],
+        [41.4995, -81.69541],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [41.4995, -81.69541],
+        [39.95234, -75.16379],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.95234, -75.16379],
+        [41.4995, -81.69541],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [35.7721, -78.63861],
+        [33.749, -84.38798],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [33.749, -84.38798],
+        [35.7721, -78.63861],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [35.7721, -78.63861],
+        [38.89511, -77.03637],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.89511, -77.03637],
+        [35.7721, -78.63861],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [33.749, -84.38798],
+        [38.89511, -77.03637],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.89511, -77.03637],
+        [33.749, -84.38798],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [33.749, -84.38798],
+        [36.16589, -86.78444],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [36.16589, -86.78444],
+        [33.749, -84.38798],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [33.749, -84.38798],
+        [38.62727, -90.19789],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.62727, -90.19789],
+        [33.749, -84.38798],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [33.749, -84.38798],
+        [32.78306, -96.80667],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [32.78306, -96.80667],
+        [33.749, -84.38798],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [33.749, -84.38798],
+        [28.53834, -81.37924],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [28.53834, -81.37924],
+        [33.749, -84.38798],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.95234, -75.16379],
+        [38.89511, -77.03637],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.89511, -77.03637],
+        [39.95234, -75.16379],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [36.16589, -86.78444],
+        [38.62727, -90.19789],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.62727, -90.19789],
+        [36.16589, -86.78444],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [36.16589, -86.78444],
+        [32.78306, -96.80667],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [32.78306, -96.80667],
+        [36.16589, -86.78444],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.62727, -90.19789],
+        [32.78306, -96.80667],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [32.78306, -96.80667],
+        [38.62727, -90.19789],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.62727, -90.19789],
+        [39.11417, -94.62746],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.11417, -94.62746],
+        [38.62727, -90.19789],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.62727, -90.19789],
+        [34.05223, -118.24368],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [34.05223, -118.24368],
+        [38.62727, -90.19789],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [29.95465, -90.07507],
+        [29.76328, -95.36327],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [29.76328, -95.36327],
+        [29.95465, -90.07507],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [29.95465, -90.07507],
+        [32.78306, -96.80667],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [32.78306, -96.80667],
+        [29.95465, -90.07507],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [29.95465, -90.07507],
+        [28.53834, -81.37924],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [28.53834, -81.37924],
+        [29.95465, -90.07507],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [29.76328, -95.36327],
+        [29.42412, -98.49363],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [29.42412, -98.49363],
+        [29.76328, -95.36327],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [29.76328, -95.36327],
+        [32.78306, -96.80667],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [32.78306, -96.80667],
+        [29.76328, -95.36327],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [29.76328, -95.36327],
+        [28.53834, -81.37924],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [28.53834, -81.37924],
+        [29.76328, -95.36327],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [29.42412, -98.49363],
+        [33.44838, -112.07404],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [33.44838, -112.07404],
+        [29.42412, -98.49363],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [29.42412, -98.49363],
+        [32.78306, -96.80667],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [32.78306, -96.80667],
+        [29.42412, -98.49363],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [32.78306, -96.80667],
+        [39.73915, -104.9847],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.73915, -104.9847],
+        [32.78306, -96.80667],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [32.78306, -96.80667],
+        [39.11417, -94.62746],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.11417, -94.62746],
+        [32.78306, -96.80667],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [32.78306, -96.80667],
+        [37.77493, -122.41942],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [37.77493, -122.41942],
+        [32.78306, -96.80667],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [32.78306, -96.80667],
+        [34.05223, -118.24368],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [34.05223, -118.24368],
+        [32.78306, -96.80667],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.73915, -104.9847],
+        [39.11417, -94.62746],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.11417, -94.62746],
+        [39.73915, -104.9847],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.73915, -104.9847],
+        [37.77493, -122.41942],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [37.77493, -122.41942],
+        [39.73915, -104.9847],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.73915, -104.9847],
+        [40.76078, -111.89105],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [40.76078, -111.89105],
+        [39.73915, -104.9847],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [39.11417, -94.62746],
+        [37.77493, -122.41942],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [37.77493, -122.41942],
+        [39.11417, -94.62746],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [37.77493, -122.41942],
+        [38.58157, -121.4944],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.58157, -121.4944],
+        [37.77493, -122.41942],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [37.77493, -122.41942],
+        [45.52345, -122.67621],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [45.52345, -122.67621],
+        [37.77493, -122.41942],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [37.77493, -122.41942],
+        [47.60621, -122.33207],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [47.60621, -122.33207],
+        [37.77493, -122.41942],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [37.77493, -122.41942],
+        [40.76078, -111.89105],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [40.76078, -111.89105],
+        [37.77493, -122.41942],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [37.77493, -122.41942],
+        [34.05223, -118.24368],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [34.05223, -118.24368],
+        [37.77493, -122.41942],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [38.58157, -121.4944],
+        [40.76078, -111.89105],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [40.76078, -111.89105],
+        [38.58157, -121.4944],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [45.52345, -122.67621],
+        [47.60621, -122.33207],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [47.60621, -122.33207],
+        [45.52345, -122.67621],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [40.76078, -111.89105],
+        [34.05223, -118.24368],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [34.05223, -118.24368],
+        [40.76078, -111.89105],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [34.05223, -118.24368],
+        [32.71533, -117.15726],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [32.71533, -117.15726],
+        [34.05223, -118.24368],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [34.05223, -118.24368],
+        [33.44838, -112.07404],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [33.44838, -112.07404],
+        [34.05223, -118.24368],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [34.05223, -118.24368],
+        [33.44838, -112.07404],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [33.44838, -112.07404],
+        [34.05223, -118.24368],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [32.71533, -117.15726],
+        [33.44838, -112.07404],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline([
+        [33.44838, -112.07404],
+        [32.71533, -117.15726],
+    ])
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline(
+        [[41.4995, -81.69541] ,[41.85003, -87.65005] ,[40.76078, -111.89105] ,[34.05223, -118.24368]],
+        {},
+        {
+            strokeColor: '#FF0000AA',
+            strokeWidth: 6,
+        }
+    )
+);
+myMap.geoObjects.add(
+    new ymaps.Polyline(
+        [[41.4995, -81.69541] ,[38.62727, -90.19789] ,[34.05223, -118.24368]],
+        {},
+        {
+            strokeColor: '#000000',
+            strokeWidth: 6,
+        }
+    )
+);
+    });
+</script>
+<div id="YMapsID" style="width: 99vw; height: 99vh;"></div>
+</body>
+</html>
