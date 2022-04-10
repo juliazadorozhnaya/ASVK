@@ -1,6 +1,6 @@
 # The work was performed by Задорожная Юлия Андреевна, group 217
 
-# Building a control network in an SDN network
+ Building a control network in an SDN network
 
 # Dependencies
 The application requires Python 3.6 or higher.
