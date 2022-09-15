@@ -1,4 +1,4 @@
-# The work was performed by Задорожная Юлия Андреевна, group 217
+# The work was performed by Zadorozhnaya Yuliya Andreevna, group 217
 
  Building a control network in an SDN network
 
